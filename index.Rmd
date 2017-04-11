@@ -1,0 +1,21 @@
+---
+title: 'Homework #3'
+author: "Kyler Halat-Shafer"
+date: "April 11, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r hist}
+x <- rnorm(1000, mean=0, sd=1)
+hist(x)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
